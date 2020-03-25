@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content=" Онлайн-курсы">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Цифровые волонтёры</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">Цифровые волонтёры</h1>
+    <a class="header__logo" href="#">
+      <img src="img/logo.png" width="61" height="43" alt="Логотип «Цифровые волонтёры»">
+      <p>Цифровые волонтёры</p>
+    </a>
+    <form action="#" class="header__form" method="get">
+      <input id="search-field" name="search" placeholder="Поиск по сайту" required="" type="search">
+      <label aria-label="Поиск по сайту" class="header__form_label" for="search-field"></label>
+      <button class="header__form_btn" type="submit"><span class="visually-hidden">Найти</span></button>
+    </form>
+    <nav class="header__nav">
+      <ul class="header__navigation">
+        <li><a class="header__sections" href="#">Разделы</a>
+          <ul class="header__sections_nav">
+            <li class="header__sections_item"><a class="header__contests" href="#">Гранты</a></li>
+            <li class="header__sections_item"><a class="header__grandees" href="#">Конкурсы</a></li>
+            <li class="header__sections_item"><a class="header__courses" href="#">Курсы</a></li>
+            <li class="header__sections_item"><a class="header__help" href="#">Помощь</a></li>
+            <li class="header__sections_item"><a class="header__internships" href="#">Стажировки</a></li>
+          </ul>
+        </li>
+        <li><a class="header__project" href="#">О проекте</a></li>
+        <li><a href="#">Новости</a></li>
+      </ul>
+    </nav>
+    <button class="header__enter">Войти</button>
+    <button class="header__language"><span class="visually-hidden">Выбор языка</span></button>
+  </header>
+
+  <main class="main">
+    <section class="preview">
+      <div class="preview__content">
+        <h2>Объеденяем усилия, чтобы&nbsp;сделать образование доступным для всех</h2>
+        <p>Узнать больше о стратегии развития проекта</p>
+        <a class="preview__button" href="#">Узнать подробнее</a>
+      </div>
+      <ul class="preview__slides">
+        <li class="preview__slide preview__slide_Active"></li>
+        <li class="preview__slide"></li>
+        <li class="preview__slide"></li>
+        <li class="preview__slide"></li>
+        <li class="preview__slide"></li>
+      </ul>
+    </section>
+
+    <section class="programs">
+      <h2>Актуальные грантовые программы</h2>
+      <div class="programs__wrapper">
+        <button class="programs__click_back"><img src="img/back-icon.png" width="12" height="20" alt=""><span class="visually-hidden">Кнопка влево</span></button>
+        <button class="programs__click_next"><img src="img/next-icon.png" width="12" height="20" alt=""><span class="visually-hidden">Кнопка в право</span></button>
+        <ul class="programs__list">
+          <li class="programs__list_card">
+            <img src="img/item1.jpg" width="293" height="211" alt="">
+            <p>Nulla viverra sem sit amet varius</p>
+            <ul class="programs__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="programs__list_card">
+            <img src="img/item2.jpg" width="293" height="211" alt="">
+            <p>Nulla viverra sem sit amet varius</p>
+            <ul class="programs__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="programs__list_card">
+            <img src="img/item3.jpg" width="293" height="211" alt="">
+            <p>Nulla viverra sem sit amet varius</p>
+            <ul class="programs__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="programs__list_card">
+            <img src="img/item4.jpg" width="293" height="211" alt="">
+            <p>Nulla viverra sem sit amet varius</p>
+            <ul class="programs__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="courses">
+      <h2>Онлайн-курсы для тебя</h2>
+      <div class="courses__wrapper">
+        <button class="courses__click_back"><img src="img/back-icon.png" width="12" height="20" alt=""><span class="visually-hidden">Кнопка влево</span></button>
+        <button class="courses__click_next"><img src="img/next-icon.png" width="12" height="20" alt=""><span class="visually-hidden">Кнопка вправо</span></button>
+        <ul class="courses__list">
+          <li class="courses__list_card">
+            <img src="img/item5.jpg" width="293" height="211" alt="">
+            <p>Название курса по математике</p>
+            <div class="courses__stars">
+              <input id="maths-4" type="radio" name="reviewStars">
+              <label title="gorgeous" for="maths-4"></label>
+              <input id="maths-3" type="radio" name="reviewStars">
+              <label title="good" for="maths-3"></label>
+              <input id="maths-2" type="radio" name="reviewStars">
+              <label title="regular" for="maths-2"></label>
+              <input id="maths-1" type="radio" name="reviewStars">
+              <label title="poor" for="maths-1"></label>
+              <input id="maths-0" type="radio" name="reviewStars">
+              <label title="bad" for="maths-0"></label>
+            </div>
+            <ul class="courses__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="courses__list_card">
+            <img src="img/item6.jpg" width="293" height="211" alt="">
+            <p>Название курса по маркетингу</p>
+            <div class="courses__stars">
+              <input id="marketing-4" type="radio" name="reviewStars">
+              <label title="gorgeous" for="marketing-4"></label>
+              <input id="marketing-3" type="radio" name="reviewStars">
+              <label title="good" for="marketing-3"></label>
+              <input id="marketing-2" type="radio" name="reviewStars">
+              <label title="regular" for="marketing-2"></label>
+              <input id="marketing-1" type="radio" name="reviewStars">
+              <label title="poor" for="marketing-1"></label>
+              <input id="marketing-0" type="radio" name="reviewStars">
+              <label title="bad" for="marketing-0"></label>
+            </div>
+            <ul class="courses__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="courses__list_card">
+            <img src="img/item7.jpg" width="293" height="211" alt="">
+            <p>Название курса по иностранным языкам</p>
+            <div class="courses__stars">
+              <input id="languages-4" type="radio" name="reviewStars">
+              <label title="gorgeous" for="languages-4"></label>
+              <input id="languages-3" type="radio" name="reviewStars">
+              <label title="good" for="languages-3"></label>
+              <input id="languages-2" type="radio" name="reviewStars">
+              <label title="regular" for="languages-2"></label>
+              <input id="languages-1" type="radio" name="reviewStars">
+              <label title="poor" for="languages-1"></label>
+              <input id="languages-0" type="radio" name="reviewStars">
+              <label title="bad" for="languages-0"></label>
+            </div>
+            <ul class="courses__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+          <li class="courses__list_card">
+            <img src="img/item8.jpg" width="293" height="211" alt="">
+            <p>Название курса по бизнесу</p>
+            <div class="courses__stars">
+              <input id="business-4" type="radio" name="reviewStars">
+              <label title="gorgeous" for="business-4"></label>
+              <input id="business-3" type="radio" name="reviewStars">
+              <label title="good" for="business-3"></label>
+              <input id="business-2" type="radio" name="reviewStars">
+              <label title="regular" for="business-2"></label>
+              <input id="business-1" type="radio" name="reviewStars">
+              <label title="poor" for="business-1"></label>
+              <input id="business-0" type="radio" name="reviewStars">
+              <label title="bad" for="business-0"></label>
+            </div>
+            <ul class="courses__item">
+              <li><a href="#">Бизнес</a></li>
+              <li><a href="#">Здоровье</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
